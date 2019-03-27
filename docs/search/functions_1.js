@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['begin',['begin',['../classcsv__parser_1_1CSVReader.html#a7c3b770303d7bdd40300a075465c7115',1,'csv_parser::CSVReader']]],
-  ['bind',['bind',['../classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a2f30f07c4c3e14e9f41854f89f2befd5',1,'csv_parser::sql::SQLitePreparedStatement']]],
-  ['bind_5fdouble',['bind_double',['../classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a9d6c55f7592b055bca995dc28061d0b4',1,'csv_parser::sql::SQLitePreparedStatement']]],
-  ['bind_5fint',['bind_int',['../classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a923555acb61a348f5b4fe3f7dd8dcc9f',1,'csv_parser::sql::SQLitePreparedStatement']]]
+  ['close',['close',['../classcsv_1_1CSVReader.html#a759e9508e80832b3b394d5afb8f7a8bf',1,'csv::CSVReader']]],
+  ['csv_5fdata_5ftypes',['csv_data_types',['../namespacecsv.html#ad4aa91cb61332520a139962f5b55944f',1,'csv']]],
+  ['csv_5fescape',['csv_escape',['../namespacecsv.html#a68da6f11bd08b5659d8ce6719e80abee',1,'csv']]],
+  ['csvreader',['CSVReader',['../classcsv_1_1CSVReader.html#aab773760e65004c49fa476eb2eb70b54',1,'csv::CSVReader::CSVReader(const std::string &amp;filename, CSVFormat format=GUESS_CSV)'],['../classcsv_1_1CSVReader.html#adc5c14177ad156c9fad1d10f5e9d5d2d',1,'csv::CSVReader::CSVReader(CSVFormat format=DEFAULT_CSV)']]],
+  ['csvstat',['CSVStat',['../classcsv_1_1CSVStat.html#a67da63a7557bf7efb8884dd553113b90',1,'csv::CSVStat']]],
+  ['vector_3c_20std_3a_3astring_20_3e',['vector&lt; std::string &gt;',['../namespacecsv.html#a447b12877f241f66ba2f3a2547782134',1,'csv']]]
 ];

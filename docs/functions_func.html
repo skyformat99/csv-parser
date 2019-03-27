@@ -9,6 +9,13 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -43,6 +50,20 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_func.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,214 +81,171 @@ $(function() {
 <div class="contents">
 &#160;
 
-<h3><a id="index__"></a>- _ -</h3><ul>
-<li>_read_csv()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a61df74330cf927f0e1259243f0968201">csv_parser::CSVReader</a>
-</li>
-</ul>
-
-
 <h3><a id="index_b"></a>- b -</h3><ul>
+<li>bad_row_handler()
+: <a class="el" href="group__csv__internal.html#gaea3e7875478c79feba84d6ee97b1d476">csv::CSVReader</a>
+</li>
 <li>begin()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a7c3b770303d7bdd40300a075465c7115">csv_parser::CSVReader</a>
-</li>
-<li>bind()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a2f30f07c4c3e14e9f41854f89f2befd5">csv_parser::sql::SQLitePreparedStatement</a>
-</li>
-<li>bind_double()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a9d6c55f7592b055bca995dc28061d0b4">csv_parser::sql::SQLitePreparedStatement</a>
-</li>
-<li>bind_int()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a923555acb61a348f5b4fe3f7dd8dcc9f">csv_parser::sql::SQLitePreparedStatement</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#ac2b664c3ba18ac36076c1a1891bd1cf2">csv::CSVReader</a>
+, <a class="el" href="classcsv_1_1CSVRow.html#af43866d896d9ac0cb54f4d018d6a74df">csv::CSVRow</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>calc()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#a32b28d3a0b3944f5cff141dc7842dd01">csv_parser::CSVStat</a>
-</li>
-<li>calc_csv()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#a8d8c0129fe00556ec292392aa9b448e6">csv_parser::CSVStat</a>
-</li>
 <li>close()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a971735c2c31280fad116005043d3044e">csv_parser::CSVReader</a>
-, <a class="el" href="classcsv__parser_1_1CSVWriter.html#a01bafc47dc4db1469ce6a6e3f02aedb0">csv_parser::CSVWriter</a>
-</li>
-<li>csv_to_json()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a6283865922956f606c4634003bd2514f">csv_parser::CSVReader</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#a759e9508e80832b3b394d5afb8f7a8bf">csv::CSVReader</a>
 </li>
 <li>CSVReader()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a92da35e2dad634a9f9bb1684d1c017e1">csv_parser::CSVReader</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#aab773760e65004c49fa476eb2eb70b54">csv::CSVReader</a>
 </li>
-<li>CSVWriter()
-: <a class="el" href="classcsv__parser_1_1CSVWriter.html#ac57741f8bf4eed7129d1704fd7d7b355">csv_parser::CSVWriter</a>
+<li>CSVStat()
+: <a class="el" href="classcsv_1_1CSVStat.html#a67da63a7557bf7efb8884dd553113b90">csv::CSVStat</a>
 </li>
 </ul>
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
-<li>empty()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a30347e8268f7923114a0d70bcb5cd079">csv_parser::CSVReader</a>
-</li>
 <li>end()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#aacc22067e1256989f888b68090bb8c5d">csv_parser::CSVReader</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#a13a1161c1512e23a6be6f8b7f0ead6eb">csv::CSVReader</a>
+, <a class="el" href="classcsv_1_1CSVRow.html#a57d1e7d834d471332238abed5a5da112">csv::CSVRow</a>
 </li>
 <li>end_feed()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#af1f7ff587fa3697b8f679139ab86699f">csv_parser::CSVReader</a>
-</li>
-<li>exec()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteConn.html#abd70047e943fc4e6b072a7fb4ba598de">csv_parser::sql::SQLiteConn</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#a8ac02ea6f091b18f9ef9c9a793d4c3bd">csv::CSVReader</a>
 </li>
 </ul>
 
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>feed()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#ae11460f41ffc1a881093685a265d3aba">csv_parser::CSVReader</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#a0e16afa967b390c29e2aab63087f5abe">csv::CSVReader</a>
+</li>
+<li>first_guess()
+: <a class="el" href="classcsv_1_1internals_1_1CSVGuesser.html#aa73a9a48294ca4ae3ab564e729456ca4">csv::internals::CSVGuesser</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>get()
+: <a class="el" href="classcsv_1_1CSVField.html#a67ff24172c5ac52417bbc36697511644">csv::CSVField</a>
+</li>
 <li>get_col_names()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteResultSet.html#ab0a55532dfe598b488ab421ff6315952">csv_parser::sql::SQLiteResultSet</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#ab282ff63cde3ff7c453cf377cc05de1c">csv::CSVReader</a>
 </li>
 <li>get_counts()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#aa2d75b76cf4dedf8197e96de8d3a43b3">csv_parser::CSVStat</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#affadbcfa1bf312afd6504ebd9c179067">csv::CSVStat</a>
 </li>
 <li>get_dtypes()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#ae97d0911dc87ee54d6802d2fd5a7883a">csv_parser::CSVStat</a>
-</li>
-<li>get_float()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#aeedbb7b80920a6e35c2a092ed8fa7dc4">csv_parser::CSVField</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#a881131249d111032b2da1ca81b71e96c">csv::CSVStat</a>
 </li>
 <li>get_format()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a9ba40d0e153203bc2c4e33702383f0df">csv_parser::CSVReader</a>
-</li>
-<li>get_int()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#ac01cfff0ad2fd60b638fd879b0888a70">csv_parser::CSVField</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#a3bd56841002f21a77653d5212f03ef52">csv::CSVReader</a>
 </li>
 <li>get_maxes()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#a1b478c5df4cfd87ef81820062acc3583">csv_parser::CSVStat</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#a8d2af11719354b5bb2a2296e595f2c0d">csv::CSVStat</a>
 </li>
 <li>get_mean()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#a981ea291714e629213e8b23829de2c1c">csv_parser::CSVStat</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#a20a3fa0650861a1206d5717b38e1119d">csv::CSVStat</a>
 </li>
 <li>get_mins()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#afeba9dae570d3167a979272240cf4ab3">csv_parser::CSVStat</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#a77adc53d21f2ff86d8537df33416ac13">csv::CSVStat</a>
 </li>
-<li>get_number()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#a726f7c5c2aca5dac2c25085d072c4bfa">csv_parser::CSVField</a>
-</li>
-<li>get_row()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteResultSet.html#a63de53839ec9dbc50ff00725d566523c">csv_parser::sql::SQLiteResultSet</a>
-</li>
-<li>get_string()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#a5722d577e830b168341dafb3a7c3e801">csv_parser::CSVField</a>
+<li>get_string_view()
+: <a class="el" href="classcsv_1_1CSVRow.html#a76f5d7b3c24f456fffcaf674bdaba633">csv::CSVRow</a>
 </li>
 <li>get_variance()
-: <a class="el" href="classcsv__parser_1_1CSVStat.html#ab4800e53c5d7d263b733457b14ff7120">csv_parser::CSVStat</a>
+: <a class="el" href="classcsv_1_1CSVStat.html#a2a856a1b6a52d13a5d985ec6ce06aeeb">csv::CSVStat</a>
+</li>
+<li>guess_delim()
+: <a class="el" href="classcsv_1_1internals_1_1CSVGuesser.html#a82275ad726eb22e14b57334e8d5b9245">csv::internals::CSVGuesser</a>
 </li>
 </ul>
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>is_float()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#a5f7abb603b5883c13b4c6fb251365fa0">csv_parser::CSVField</a>
-</li>
-<li>is_int()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#a90c4f1fcc12e1eb2c293daf33df9f5be">csv_parser::CSVField</a>
-</li>
-<li>is_null()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#a0efea2dbaa1824430a677c503f091db3">csv_parser::CSVField</a>
-</li>
-<li>is_string()
-: <a class="el" href="classcsv__parser_1_1CSVField.html#ab80e3370d68fe90960bf7194b99b0dcb">csv_parser::CSVField</a>
+<li>index_of()
+: <a class="el" href="classcsv_1_1CSVReader.html#a76b59e4a7f140ba9e4d0fa9a1758a039">csv::CSVReader</a>
 </li>
 </ul>
 
 
-<h3><a id="index_n"></a>- n -</h3><ul>
-<li>next()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#adbb2a133ca86c9206f760d2e2c0d87ec">csv_parser::sql::SQLitePreparedStatement</a>
-</li>
-<li>next_result()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteResultSet.html#a27791efadf6866066ee94835df81ecab">csv_parser::sql::SQLiteResultSet</a>
-</li>
-<li>num_cols()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteResultSet.html#a044fbb420f015cfdc5931c314663e22b">csv_parser::sql::SQLiteResultSet</a>
+<h3><a id="index_m"></a>- m -</h3><ul>
+<li>make_flags()
+: <a class="el" href="group__csv__internal.html#gac2215271c176fa343fdfea1d319aab4c">csv::CSVReader</a>
 </li>
 </ul>
 
 
-<h3><a id="index_p"></a>- p -</h3><ul>
-<li>process_newline()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a2c75b439cd8585a02996ef9db4742566">csv_parser::CSVReader</a>
+<h3><a id="index_o"></a>- o -</h3><ul>
+<li>operator*()
+: <a class="el" href="classcsv_1_1CSVReader_1_1iterator.html#a90659253cc409c96908ad00aa743061c">csv::CSVReader::iterator</a>
 </li>
-<li>process_possible_delim()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a541d25951108a566f1380e25808a57a6">csv_parser::CSVReader</a>
+<li>operator++()
+: <a class="el" href="classcsv_1_1CSVReader_1_1iterator.html#a280ee76af5604b6bc954ed0f23ac1a5f">csv::CSVReader::iterator</a>
 </li>
-<li>process_quote()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a2b89cf56b9b56de70500e4d43ce48b13">csv_parser::CSVReader</a>
+<li>operator-&gt;()
+: <a class="el" href="classcsv_1_1CSVReader_1_1iterator.html#ab4cfd07f9bfcd6cdd64d1f36bcacfe66">csv::CSVReader::iterator</a>
+</li>
+<li>operator&lt;&lt;()
+: <a class="el" href="classcsv_1_1DelimWriter.html#af060b8e69e8519a9d70e2864e29a5745">csv::DelimWriter&lt; OutputStream, Delim, Quote &gt;</a>
+</li>
+<li>operator==()
+: <a class="el" href="classcsv_1_1CSVReader_1_1iterator.html#af24cee2d26b85bde5c93975d8fe70fc0">csv::CSVReader::iterator</a>
+</li>
+<li>operator[]()
+: <a class="el" href="classcsv_1_1CSVRow.html#ad523d2b544bc7dab0a121891e5062d2c">csv::CSVRow</a>
 </li>
 </ul>
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>read_csv()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a2d925f5ae93669c1ba6643eace07d7a1">csv_parser::CSVReader</a>
+: <a class="el" href="group__csv__internal.html#ga44deca7b16b9de9092a029f6c014b1fa">csv::CSVReader</a>
+</li>
+<li>read_csv_worker()
+: <a class="el" href="group__csv__internal.html#ga49ab4671b28da24f5ae8670a9eef557d">csv::CSVReader</a>
 </li>
 <li>read_row()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a1a9c2ec5e3ae0af2dba36ca1cd75876e">csv_parser::CSVReader</a>
+: <a class="el" href="classcsv_1_1CSVReader.html#aa28b87c77c5366e34ef86b35fb9f7238">csv::CSVReader</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>set_col_names()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#af379afa29bafb70df0a1ffcc69b49466">csv_parser::CSVReader</a>
+<li>second_guess()
+: <a class="el" href="classcsv_1_1internals_1_1CSVGuesser.html#a3ea5d2dee87b8cb23aca15b9c9aaa351">csv::internals::CSVGuesser</a>
 </li>
-<li>SQLiteConn()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteConn.html#aeba13c1825dfb77308254c3bc89539fa">csv_parser::sql::SQLiteConn</a>
-</li>
-<li>SQLitePreparedStatement()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#a9d935ffc00546dd991cfd929d90a511d">csv_parser::sql::SQLitePreparedStatement</a>
+<li>size()
+: <a class="el" href="classcsv_1_1CSVRow.html#afd489a3a2920fda476bbfe3ed549f0b9">csv::CSVRow</a>
 </li>
 </ul>
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
-<li>to_json()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#aa98608f45266dd26c2952ae141f0601a">csv_parser::CSVReader</a>
+<li>type()
+: <a class="el" href="classcsv_1_1CSVField.html#aee31987c4c62c8ef7a89b475bd089618">csv::CSVField</a>
 </li>
 </ul>
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>write_record()
-: <a class="el" href="classcsv__parser_1_1CSVReader.html#a2150bc512ac7a8bbc5021fdcd15ffeb6">csv_parser::CSVReader</a>
+: <a class="el" href="group__csv__internal.html#ga609293317d4520eb6cc711c012240cb0">csv::CSVReader</a>
 </li>
 <li>write_row()
-: <a class="el" href="classcsv__parser_1_1CSVWriter.html#a5c88acfa0a9e27bbb278d999b396d3ae">csv_parser::CSVWriter</a>
-</li>
-</ul>
-
-
-<h3><a id="index_0x7e"></a>- ~ -</h3><ul>
-<li>~SQLiteConn()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLiteConn.html#a251e515d08269c234355cb6c17e957f3">csv_parser::sql::SQLiteConn</a>
-</li>
-<li>~SQLitePreparedStatement()
-: <a class="el" href="classcsv__parser_1_1sql_1_1SQLitePreparedStatement.html#adfee79272d67b79b4ac38b9f5e9a9595">csv_parser::sql::SQLitePreparedStatement</a>
+: <a class="el" href="classcsv_1_1DelimWriter.html#af71375d3bd496f10965e3a78d710e89c">csv::DelimWriter&lt; OutputStream, Delim, Quote &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.13
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
 </body>
 </html>

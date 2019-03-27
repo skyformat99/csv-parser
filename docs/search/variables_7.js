@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['iteration_5fchunk_5fsize',['ITERATION_CHUNK_SIZE',['../namespacecsv__parser.html#a2861dd5ff237bb8250aa023a7d1cc172',1,'csv_parser']]]
+  ['n_5fcols',['n_cols',['../structcsv_1_1CSVFileInfo.html#a07230a749c9a9e38a0ddcbd47a3e98e3',1,'csv::CSVFileInfo']]],
+  ['n_5frows',['n_rows',['../structcsv_1_1CSVFileInfo.html#a5cc2f778eeb60b29acdc88662985695c',1,'csv::CSVFileInfo']]]
 ];

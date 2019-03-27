@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['json_5fescape',['json_escape',['../namespacecsv__parser_1_1helpers.html#ac9e0e74a2a6e3e7397474fecf562a73d',1,'csv_parser::helpers']]]
+  ['n_5fcols',['n_cols',['../structcsv_1_1CSVFileInfo.html#a07230a749c9a9e38a0ddcbd47a3e98e3',1,'csv::CSVFileInfo']]],
+  ['n_5frows',['n_rows',['../structcsv_1_1CSVFileInfo.html#a5cc2f778eeb60b29acdc88662985695c',1,'csv::CSVFileInfo']]]
 ];

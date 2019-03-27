@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['insert_5fvalues',['insert_values',['../namespacecsv__parser_1_1sql.html#a55cd72a83f860003c36c31d1ae2083a4',1,'csv_parser::sql']]],
-  ['is_5ffloat',['is_float',['../classcsv__parser_1_1CSVField.html#a5f7abb603b5883c13b4c6fb251365fa0',1,'csv_parser::CSVField']]],
-  ['is_5fint',['is_int',['../classcsv__parser_1_1CSVField.html#a90c4f1fcc12e1eb2c293daf33df9f5be',1,'csv_parser::CSVField']]],
-  ['is_5fnull',['is_null',['../classcsv__parser_1_1CSVField.html#a0efea2dbaa1824430a677c503f091db3',1,'csv_parser::CSVField']]],
-  ['is_5fstring',['is_string',['../classcsv__parser_1_1CSVField.html#ab80e3370d68fe90960bf7194b99b0dcb',1,'csv_parser::CSVField']]]
+  ['operator_22_22_5fcsv',['operator&quot;&quot;_csv',['../namespacecsv.html#abcbc9a3ab5e6eb6905a995964c7cbf13',1,'csv']]],
+  ['operator_2a',['operator*',['../classcsv_1_1CSVReader_1_1iterator.html#a90659253cc409c96908ad00aa743061c',1,'csv::CSVReader::iterator']]],
+  ['operator_2b_2b',['operator++',['../classcsv_1_1CSVReader_1_1iterator.html#a280ee76af5604b6bc954ed0f23ac1a5f',1,'csv::CSVReader::iterator']]],
+  ['operator_2d_3e',['operator-&gt;',['../classcsv_1_1CSVReader_1_1iterator.html#ab4cfd07f9bfcd6cdd64d1f36bcacfe66',1,'csv::CSVReader::iterator']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../classcsv_1_1DelimWriter.html#af060b8e69e8519a9d70e2864e29a5745',1,'csv::DelimWriter']]],
+  ['operator_3d_3d',['operator==',['../classcsv_1_1CSVReader_1_1iterator.html#af24cee2d26b85bde5c93975d8fe70fc0',1,'csv::CSVReader::iterator']]],
+  ['operator_5b_5d',['operator[]',['../classcsv_1_1CSVRow.html#ad523d2b544bc7dab0a121891e5062d2c',1,'csv::CSVRow::operator[](size_t n) const'],['../classcsv_1_1CSVRow.html#a7279b8be87c4ce717447a432c9143839',1,'csv::CSVRow::operator[](const std::string &amp;) const']]]
 ];

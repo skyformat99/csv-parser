@@ -1,7 +1,18 @@
 var searchData=
 [
-  ['feed',['feed',['../classcsv__parser_1_1CSVReader.html#ae11460f41ffc1a881093685a265d3aba',1,'csv_parser::CSVReader']]],
-  ['feed_5fbuffer',['feed_buffer',['../classcsv__parser_1_1CSVReader.html#aba0673a8fff38e28961af572c1387bee',1,'csv_parser::CSVReader']]],
-  ['feed_5fcond',['feed_cond',['../classcsv__parser_1_1CSVReader.html#a4fa8ac943e5ce9e3a6bbfa259d48db37',1,'csv_parser::CSVReader']]],
-  ['feed_5flock',['feed_lock',['../classcsv__parser_1_1CSVReader.html#a628d0c1e076c4ab580f7f8ea746a9f78',1,'csv_parser::CSVReader']]]
+  ['get',['get',['../classcsv_1_1CSVField.html#a67ff24172c5ac52417bbc36697511644',1,'csv::CSVField']]],
+  ['get_5fcol_5fnames',['get_col_names',['../classcsv_1_1CSVReader.html#ab282ff63cde3ff7c453cf377cc05de1c',1,'csv::CSVReader::get_col_names()'],['../namespacecsv.html#a3d46fa01407dce7fd8f33d55604e74da',1,'csv::get_col_names()']]],
+  ['get_5fcol_5fpos',['get_col_pos',['../namespacecsv.html#af36e457d080e4567f0939db04e193bff',1,'csv']]],
+  ['get_5fcounts',['get_counts',['../classcsv_1_1CSVStat.html#affadbcfa1bf312afd6504ebd9c179067',1,'csv::CSVStat']]],
+  ['get_5fdtypes',['get_dtypes',['../classcsv_1_1CSVStat.html#a881131249d111032b2da1ca81b71e96c',1,'csv::CSVStat']]],
+  ['get_5ffile_5finfo',['get_file_info',['../namespacecsv.html#a59dfc8c288720becdd3a55485262e670',1,'csv']]],
+  ['get_5fformat',['get_format',['../classcsv_1_1CSVReader.html#a3bd56841002f21a77653d5212f03ef52',1,'csv::CSVReader']]],
+  ['get_5fmaxes',['get_maxes',['../classcsv_1_1CSVStat.html#a8d2af11719354b5bb2a2296e595f2c0d',1,'csv::CSVStat']]],
+  ['get_5fmean',['get_mean',['../classcsv_1_1CSVStat.html#a20a3fa0650861a1206d5717b38e1119d',1,'csv::CSVStat']]],
+  ['get_5fmins',['get_mins',['../classcsv_1_1CSVStat.html#a77adc53d21f2ff86d8537df33416ac13',1,'csv::CSVStat']]],
+  ['get_5fstring_5fview',['get_string_view',['../classcsv_1_1CSVRow.html#a76f5d7b3c24f456fffcaf674bdaba633',1,'csv::CSVRow']]],
+  ['get_5fvariance',['get_variance',['../classcsv_1_1CSVStat.html#a2a856a1b6a52d13a5d985ec6ce06aeeb',1,'csv::CSVStat']]],
+  ['guess_5fcsv',['GUESS_CSV',['../namespacecsv.html#a934424955c1b950cd80a5f0a1e7faaf1',1,'csv']]],
+  ['guess_5fdelim',['guess_delim',['../classcsv_1_1internals_1_1CSVGuesser.html#a82275ad726eb22e14b57334e8d5b9245',1,'csv::internals::CSVGuesser']]],
+  ['guess_5fformat',['guess_format',['../namespacecsv.html#abd689f33ce9fe246fd3229c53654232c',1,'csv']]]
 ];
